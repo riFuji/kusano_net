@@ -2,22 +2,90 @@
 <head>
 </head>
 <body bgcolor="#F0F0F0">
+  <br><br>
+  <center>
+    <font size="5">◆ MENU ◆</font>
+  </center>
+
   <br>
   <table width="250" border="0">
     <tbody>
       <tr>
-        <td width="250">トップページ</td>
+        <td width="25"></td>
+        <td width="25">・</td>
+        <td width="200"><a href="javascript:move_top()">トップページ</a></td>
       </tr>
       <tr>
-        <td width="250">ぐあいいいね</td>
+        <td width="25"></td>
+        <td width="25"></td>
+        <td width="200"></td>
       </tr>
       <tr>
-        <td width="250">便所</td>
+        <td width="25"></td>
+        <td width="25"></td>
+        <td width="200"></td>
       </tr>
       <tr>
-        <td width="250">便サン売り場</td>
+        <td width="25"></td>
+        <td width="25">・</td>
+        <td width="200"><a href="javascript:move_guai()">ぐあいいいね</a></td>
+      </tr>
+      <tr>
+        <td width="25"></td>
+        <td width="25"></td>
+        <td width="200"></td>
+      </tr>
+      <tr>
+        <td width="25"></td>
+        <td width="25"></td>
+        <td width="200"></td>
+      </tr>
+      <tr>
+        <td width="25"></td>
+        <td width="25">・</td>
+        <td width="200"><a href="javascript:move_wc()">ﾃﾝｿｸ</a></td>
+      </tr>
+      <tr>
+        <td width="25"></td>
+        <td width="25"></td>
+        <td width="200"></td>
+      </tr>
+      <tr>
+        <td width="25"></td>
+        <td width="25"></td>
+        <td width="200"></td>
+      </tr>
+      <tr>
+        <td width="25"></td>
+        <td width="25">・</td>
+        <td width="200"><a href="javascript:move_wc()">お姉ちゃんプラモ</a></td>
+      </tr>
+      <tr>
+        <td width="25"></td>
+        <td width="25"></td>
+        <td width="200"></td>
+      </tr>
+      <tr>
+        <td width="25"></td>
+        <td width="25"></td>
+        <td width="200"></td>
+      </tr>
+      <tr>
+        <td width="25"></td>
+        <td width="25">・</td>
+        <td width="200"><a href="javascript:move_shop()">便所</a></td>
       </tr>
     </tbody>
   </table>
+
+  <script type="text/javascript">
+    function move_top() {
+      parent.main.location.src = "./top.html";
+    }
+    function move_guai() {
+      parent.main.location.src = "./guai.html";
+    }
+  </script>
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 </body>
 </html>
