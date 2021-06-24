@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  nginx:
+    build: ./nginx
+    image: nginx
+    container_name: nginx
+    ports:
+      - '80:80'
+    volumes:
+      - ./nginx/conf.d/default.conf:/etc/nginx/nginx.conf
+      - ./www:/var/www
